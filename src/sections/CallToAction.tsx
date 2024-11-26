@@ -1,9 +1,4 @@
-import {
-  AnimatePresence,
-  AnimationPlaybackControls,
-  motion,
-  useAnimate,
-} from "framer-motion";
+import { AnimationPlaybackControls, motion, useAnimate } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 export default function CallToAction() {

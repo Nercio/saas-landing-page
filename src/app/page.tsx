@@ -9,7 +9,6 @@ import Integrations from "@/sections/Integrations";
 import Introduction from "@/sections/Introduction";
 import LogoTicker from "@/sections/LogoTicker";
 import Navbar from "@/sections/Navbar";
-import { AnimatePresence } from "framer-motion";
 import { Fragment } from "react";
 
 export default function Home() {

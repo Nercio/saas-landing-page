@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes, HTMLAttributes } from "react";
+import React, { ButtonHTMLAttributes } from "react";
 import { cva } from "class-variance-authority";
 
 const classes = cva("rounded-full border  font-medium px-6 h-12", {
@@ -19,7 +19,7 @@ export default function Button(
     size?: "sm";
   } & ButtonHTMLAttributes<HTMLButtonElement>
 ) {
-  const { variants, size, className, ...rest } = props;
+  const { size, className, ...rest } = props;
   return (
     <button
       {...rest}
